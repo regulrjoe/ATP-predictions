@@ -1,0 +1,12 @@
+Id,Name,Shape Library,Page ID,Contained By,Line Source,Line Destination,Source Arrow,Destination Arrow,Text Area 1,Text Area 2,Text Area 3,Text Area 4,Text Area 5,Text Area 6,Text Area 7,Text Area 8,Text Area 9,Text Area 10,Text Area 11,Text Area 12,Text Area 13,Text Area 14,Text Area 15,Text Area 16,Text Area 17,Text Area 18,Text Area 19,Text Area 20,Text Area 21,Text Area 22,Text Area 23,Text Area 24,Text Area 25,Text Area 26,Text Area 27,Text Area 28,Text Area 29,Text Area 30,Text Area 31,Text Area 32,Text Area 33,Text Area 34,Text Area 35,Text Area 36,Text Area 37,Text Area 38,Text Area 39,Text Area 40,Text Area 41,Text Area 42,Text Area 43
+1,Page,,,,,,,,Page 1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,Entity,Entity Relationship,1,,,,,,Player,PK,id,int,,name,text,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,Entity,Entity Relationship,1,,,,,,Match,PK,id,int,,days_since_game0,int,,atp,int,,location,int,,tournament,int,,series,int,,court,int,,surface,int,,round,int,,best_of,int,FK,player1_id,int,FK,player2_id,int,,comment,int,,winner,int
+4,Entity,Entity Relationship,1,,,,,,Match_Player_Stats,PK,id,int,FK,match_id,int,FK,player_id,int,,rank,int,,matchpoints,int,,sets_won,real,,won,int,,,,,,,,,,,,,,,,,,,,,
+5,Entity,Entity Relationship,1,,,,,,Match_Player_Odds,PK,id,int,FK,match_id,int,FK,player_id,int,,max,real,,min,real,,avg,real,,std,real,,,,,,,,,,,,,,,,,,,,,
+6,Line,,1,,2,5,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+7,Line,,1,,2,4,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,Line,,1,,3,4,CFN ERD One Arrow,CFN ERD One Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9,Line,,1,,5,3,CFN ERD One Arrow,CFN ERD One Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,Line,,1,,2,3,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+11,Line,,1,,2,3,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
